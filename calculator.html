@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Calculator</title>
+     <link rel="stylesheet" href="./calculator_styles.css">
+</head>
+<body id="body">
+    <h1 id="calc">Calc</h1>
+    <div id="layout">
+        <h1 id="ulator">ulator</h1>
+        <form name="cform">
+        <input type="text" class="display" name="answer">
+        <br><br>
+        <input class="a" type="button" value="1" onclick="cform.answer.value +='1'">
+        <input class="a" type="button" value="2" onclick="cform.answer.value +='2'">
+        <input class="a" type="button" value="3" onclick="cform.answer.value +='3'">
+        <input class="a" type="button" value="+" onclick="cform.answer.value +='+'">
+        <br><br>
+        <input class="a" type="button" value="4" onclick="cform.answer.value +='4'">
+        <input class="a" type="button" value="5" onclick="cform.answer.value +='5'">
+        <input class="a" type="button" value="6" onclick="cform.answer.value +='6'">
+        <input class="a" type="button" value="-" onclick="cform.answer.value +='-'">
+        <br><br>
+        <input class="a" type="button" value="7" onclick="cform.answer.value +='7'">
+        <input class="a" type="button" value="8" onclick="cform.answer.value +='8'">
+        <input class="a" type="button" value="9" onclick="cform.answer.value +='9'">
+        <input class="a" type="button" value="*" onclick="cform.answer.value +='*'">
+        <br><br>
+        <input class="a" type="button" value="/" onclick="cform.answer.value +='/'">
+        <input class="a" type="button" value="0" onclick="cform.answer.value +='0'">
+        <input class="a" type="button" value="." onclick="cform.answer.value +='.'">
+        <input class="a" type="button" value="%" onclick="cform.answer.value +='%'">
+        <br><br>
+        <input class="a1" type="button" value="Clear"onclick="cform.answer.value =' '">
+        <input class="a1" type="button" value="=" onclick="cform.answer.value=eval(cform.answer.value)">
+         </form>    
+    </div>
+</body>
+</html>

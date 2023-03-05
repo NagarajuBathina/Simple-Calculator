@@ -1,0 +1,95 @@
+
+#layout{
+    border: solid 1px black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 26%;
+    height: 420px;
+   position: absolute;
+   left: 470px;
+   top: 70px;
+   background-color: rgba(123, 119, 119, 0.543);
+   box-shadow: 2px 0px 10px black;
+
+}
+#calc{
+    display: inline;
+    font-size: 110px;
+    color: rgba(244, 240, 240, 0.747);
+    text-shadow: 0px 0px 5px black;
+    position: absolute;
+    top:250px;
+    left: 240px;
+    letter-spacing: 5px;
+}
+#ulator{
+    color: rgba(244, 240, 240, 0.989);
+    text-shadow: 0px 0px 5px black;
+    font-size: 110px;
+    position: absolute;
+    top: 180px;
+    letter-spacing: 5px;
+}
+
+#body{
+    background-image: linear-gradient(purple,black);
+    background-repeat: no-repeat;
+    background-size:100% 800px;
+}
+
+.display{
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left:11px;
+    background-color: rgb(255, 117, 255);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px black;
+}
+.a{
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px black;
+    background-color: rgba(19, 18, 18, 0.299);
+    color: rgb(255, 117, 255);
+
+}
+
+.a:hover{
+    width: 43px;
+    height: 43px;
+    background-color: rgb(255, 117, 255);
+    color:black ;
+}
+.a1{
+    width: 35%;
+    height: 42px;
+    position: relative;
+    top:50px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px black;
+    background-color: rgba(19, 18, 18, 0.299);
+    color: rgb(255, 117, 255);
+
+}
+.a1:hover{
+    width: 35.5%;
+    height: 43px;
+    background-color: rgb(255, 117, 255);
+    color:black ;
+}
